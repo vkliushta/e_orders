@@ -7,6 +7,14 @@
 asgiref==3.7.2
     # via django
 django==5.0.1
+    # via
+    #   -r requirements.in
+    #   django-phonenumber-field
+django-phonenumber-field[phonenumbers]==7.3.0
+    # via -r requirements.in
+phonenumbers==8.13.27
+    # via django-phonenumber-field
+pillow==10.2.0
     # via -r requirements.in
 sqlparse==0.4.4
     # via django
