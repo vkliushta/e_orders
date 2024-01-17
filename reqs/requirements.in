@@ -2,3 +2,4 @@ Django>=5
 Pillow
 django-phonenumber-field[phonenumbers]
 djangorestframework
+psycopg2-binary
